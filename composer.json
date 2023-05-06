@@ -1,0 +1,31 @@
+{
+    "name": "afdav/crud-gen-laravel",
+    "description": "Paquete de Laravel generador de CRUD",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Edgar AF",
+            "email": "afdav.ed@softbinaryst.com.py"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "afdav\\CrudGeneradorLaravel\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "afdav\\CrudGeneradorLaravel\\LaravelCrudGeneratorServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^7.3|^8.0",
+        "illuminate/support": "^7.0|^8.0|^9.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    }
+}
